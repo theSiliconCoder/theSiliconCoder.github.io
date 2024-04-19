@@ -1,0 +1,24 @@
+Customization Steps
+Phase 1: Main : 2h
+// Logo: done
+// NavBar Text: done
+// About/Intro : done
+// Contact: done
+// Remove Unused Sections ; done
+// Adjust theme to match logo color #439FE0 #2AFFBD  : done
+
+
+Phase 2: Main 2 : 2h
+// What We do: done
+// Privacy, Cookie
+// Join Us
+
+Phase 3: Infuse janet vibes : 1h
+
+Phase 4: Infuse eqvilent vibes : 1h
+
+Phase 5: Deploy and Share : 2h
+
+Phase 6: Basic Flask App, Join Us Backend
+
+
