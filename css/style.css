@@ -122,7 +122,9 @@
 }
 
 .hero-img {
+  /* height: 50%; */
   width: 100%;
+  border-radius: 1rem;
 }
 
 .delivered-meals {
@@ -302,6 +304,7 @@
 
 .step-img {
   width: 100%;
+  border-radius: 1rem;
   /* z-index: 10; */
 }
 
@@ -669,7 +672,8 @@
 
 .footer-logo {
   display: block;
-  margin-bottom: 3.2rem;
+  margin-bottom: 3rem;
+  height: 3.6rem;
 }
 
 .social-links {
