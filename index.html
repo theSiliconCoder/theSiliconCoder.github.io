@@ -37,7 +37,7 @@
           <li><a class="main-nav-link" href="#about">Who We Are</a></li>
           <li><a class="main-nav-link" href="#how">Our Approach</a></li>
           <li>
-            <a class="main-nav-link" href="#how">Our Culture</a>
+            <a class="main-nav-link" href="#culture">Our Culture</a>
           </li>
           <li><a class="main-nav-link" href="#careers">Join Qubit</a></li>
           <li><a class="main-nav-link nav-cta" href="#cta">Learn More</a></li>
@@ -75,7 +75,7 @@
                 <img src="img/customers/customer-6.jpg" alt="Customer photo" />
               </div>
               <p class="delivered-text">
-                <span>250,000+</span> clients served last year!
+                <span>25,000+</span> Community Members!
               </p>
             </div>
           </div>
@@ -211,7 +211,7 @@
           />
         </div>
         <div class="step-text-box">
-          <p class="step-number">Culture</p>
+          <p class="step-number" id="culture">Culture</p>
           <h3 class="heading-tertiary">
             Our Culture Keeps Us Ahead of the Competition
           </h3>
@@ -225,6 +225,131 @@
             Our company is a beautiful synergy of all. We are a people first
             flat organisation with plenty of room to grow intellectually.
           </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="who-we-are-section">
+      <div class="who-we-are-div">
+        <div class="who-we-are-top subheading">
+          <h1>Team</h1>
+        </div>
+        <div class="who-we-are-left">
+          <div class="who-we-are-heading">
+            <h1>
+              Exceptional Team to face unknown obstacles in quantitative finance
+            </h1>
+          </div>
+          <div class="who-we-are-para">
+            <p>
+              Our team of quantitative researchers, quantitative developers,
+              traditional traders, and software engineers work hand in hand to
+              research and build alpha generating mathematical models that
+              combine state of the art research in machine learning, statistics,
+              mathematical optimization techniques and data analysis to help
+              generate alpha for our stakeholders.
+            </p>
+
+            <p>
+              We take pride in our researchers and our engineers that hail from
+              established universities with advanced degrees in mathematics,
+              physics, computer science and engineering and with a lot of
+              experience in model building and machine learning.
+            </p>
+
+            <p>
+              Our traders are seasoned professionals who have been trading for
+              years for our sister company, an asset management firm with over a
+              decade of experience serving its clients globally.
+            </p>
+
+            <p>
+              Together with our sister company, we are 80+ people strong and are
+              growing rapidly.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="events" class="who-we-are-section">
+      <div class="who-we-are-div">
+        <div class="who-we-are-top subheading">
+          <h1>Events</h1>
+        </div>
+        <div class="who-we-are-left">
+          <div class="who-we-are-heading">
+            <h1>We Provide Sponsorship for Various Events in Academia</h1>
+          </div>
+          <div class="who-we-are-para">
+            <p>
+              We sponsor different Events at:<br />
+              <a href="https://www.sbs.ox.ac.uk/" class="link">
+                University of Oxford,<br />
+                London Business School</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-cta" id="cta">
+      <div class="container">
+        <div class="cta">
+          <div class="cta-text-box">
+            <h2 class="heading-secondary">Subcribe to Our Newsletter!</h2>
+            <p class="cta-text">
+              For latest news about quantitative finance and market trends. You
+              can cancel or pause anytime.
+            </p>
+
+            <form class="cta-form" name="sign-up" netlify>
+              <div>
+                <label for="full-name">Full Name</label>
+                <input
+                  id="full-name"
+                  type="text"
+                  placeholder="John Smith"
+                  name="full-name"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="email">Email address</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="me@example.com"
+                  name="email"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="select-where">Where did you hear from us?</label>
+                <select id="select-where" name="select-where" required>
+                  <option value="">Please choose one option:</option>
+                  <option value="friends">Friends and family</option>
+                  <option value="youtube">YouTube video</option>
+                  <option value="podcast">Podcast</option>
+                  <option value="ad">Facebook ad</option>
+                  <option value="others">Others</option>
+                </select>
+              </div>
+
+              <button class="btn btn--form">Sign up now</button>
+
+              <!-- <input type="checkbox" />
+              <input type="number" /> -->
+            </form>
+          </div>
+          <div
+            class="cta-img-box"
+            role="img"
+            aria-label="Candle Sticks Chart"
+          ></div>
         </div>
       </div>
     </section>
@@ -294,17 +419,18 @@
         <nav class="nav-col">
           <p class="footer-heading">Company</p>
           <ul class="footer-nav">
-            <li><a class="footer-link" href="#">Who We Are</a></li>
-            <li><a class="footer-link" href="#">Our Approach</a></li>
-            <li><a class="footer-link" href="#">Our Culture</a></li>
-            <li><a class="footer-link" href="#">Join Qubit</a></li>
+            <li><a class="footer-link" href="#about">Who We Are</a></li>
+            <li><a class="footer-link" href="#how">Our Approach</a></li>
+            <li><a class="footer-link" href="#culture">Our Culture</a></li>
+            <li><a class="footer-link" href="#team">Team</a></li>
+            <li><a class="footer-link" href="#careers">Join Qubit</a></li>
           </ul>
         </nav>
 
         <nav class="nav-col">
           <p class="footer-heading">Resources</p>
           <ul class="footer-nav">
-            <li><a class="footer-link" href="#">UpComing Events</a></li>
+            <li><a class="footer-link" href="#events">Events</a></li>
             <li><a class="footer-link" href="#">Help center</a></li>
             <li><a class="footer-link" href="#">Privacy & Terms</a></li>
           </ul>

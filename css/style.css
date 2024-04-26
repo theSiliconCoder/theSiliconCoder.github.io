@@ -156,7 +156,7 @@
 }
 
 .delivered-text span {
-  color: #2affbd;
+  color: rgba(0, 0, 0, 0.65);
   font-weight: 700;
 }
 
@@ -209,6 +209,8 @@
   text-align: center;
   /* background-color: #7fffd7; */
   background-color: rgb(245, 245, 247);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
 }
 
 .who-we-are-heading {
@@ -582,13 +584,13 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
 
-  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
-  overflow: hidden;
+  background-image: linear-gradient(to right bottom, #7fffd7, #2affbd);
+  /* overflow: hidden; */
 }
 
 .cta-text-box {
   padding: 4.8rem 6.4rem 6.4rem 6.4rem;
-  color: #45260a;
+  color: rgba(0, 0, 0, 0.85);
 }
 
 .cta .heading-secondary {
@@ -603,13 +605,24 @@
   margin-bottom: 4.8rem;
 }
 
-.cta-img-box {
+/* .cta-img-box {
   background-image: linear-gradient(
       to right bottom,
       rgba(235, 151, 78, 0.35),
       rgba(230, 125, 34, 0.35)
     ),
-    url("../img/eating.jpg");
+    url("../qimg/candlesticks-chart.jpg");
+  background-size: cover;
+  background-position: center;
+} */
+
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(127, 255, 215, 0.35),
+      rgba(42, 255, 189, 0.35)
+    ),
+    url("../qimg/candlesticks-chart.jpg");
   background-size: cover;
   background-position: center;
 }
