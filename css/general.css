@@ -61,7 +61,11 @@ Medium: 11px
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* background-color: black; */
+  /* background-color: #090709; */
+  --accent-main: #2affbd;
+  --accent-alt: rgba(255, 92, 0, 1);
+  --env-accent: #090709;
+  --txt-accent: rgb(245, 245, 247);
 }
 
 html {

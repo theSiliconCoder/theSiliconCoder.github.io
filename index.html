@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
+    <link rel="stylesheet" href="css/animation.css" />
 
     <title>Qubit Cap Labs &mdash; Leading Prop-Trading!</title>
   </head>
@@ -84,16 +85,13 @@
             </div>
           </div>
           <div class="hero-img-box">
-            <picture>
-              <!-- <source srcset="qimg/home-img.png" type="image/webp" /> -->
-              <!-- <source srcset="qimg/candlesticks-chart.jpg" type="image/jpg" /> -->
-
-              <img
-                src="qimg/cropped-candlesticks-chart.jpg"
-                class="hero-img"
-                alt="Math, Graphs etc"
-              />
-            </picture>
+            <div id="lines-root"></div>
+            <section id="comet-box">
+              <div class="discover">
+                <div class="txt">Discover Trading...</div>
+                <div class="comet"></div>
+              </div>
+            </section>
           </div>
         </div>
       </section>
@@ -465,4 +463,5 @@
     src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
   ></script>
   <script defer src="js/script.js"></script>
+  <script defer src="js/animation-script.js"></script>
 </html>

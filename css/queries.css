@@ -68,6 +68,10 @@
     font-size: 50%;
   }
 
+  /* .line-container {
+    left: 20%;
+  } */
+
   .hero {
     grid-template-columns: 1fr;
     padding: 0 8rem;
@@ -77,6 +81,10 @@
   .hero-text-box,
   .hero-img-box {
     text-align: center;
+  }
+
+  .hero-img-box {
+    height: 360px;
   }
 
   .hero-img {
