@@ -193,6 +193,10 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .view-apps-div {
+    grid-template-columns: 1fr;
+  }
+
   .diets {
     grid-column: 1 / -1;
     justify-self: center;

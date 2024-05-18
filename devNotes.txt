@@ -1,0 +1,56 @@
+
+// presentation
+
+QCL WebSite
+
+Features
+// Home Page : All Sections
+// Careers Page : All section
+// Job Application Page
+// Application Feedback
+// View Job Applications Page for Admin Only
+
+Organsized Folder with Labeled and Sequencial Photos
+Slide Show
+
+// System Design
+
+
+// careers/page and job application
+
+careers page
+// join us pitch
+// job listings (static) -> cards or list of containers
+- onClick -> Page with more info about job with apply button
+  - onClick(apply) -> Form with File Upload section 
+
+
+careers template -> apply template -> applied template
+
+
+careers: done
+// header: done
+// navigation: done
+// join us pitch: about us container style : done
+// job listings (static) -> cards or list of containers with more about job button bn 
+// footer: done
+
+apply 
+// header
+// jd
+ - jd 
+ div > two columns grid. 
+ left > align-items: center, 
+ right
+// form and submit button
+// footer
+
+applied
+// header
+// thanks for applying, you will hear back from us soon.
+// footer
+
+applications (later for admin only)
+// header
+// thanks for applying, you will hear back from us soon.
+// footer

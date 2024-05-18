@@ -161,6 +161,179 @@
 }
 
 /**************************/
+/* VIEW APPLICATIONS SECTION */
+/**************************/
+
+.view-apps-sect {
+  max-width: 120rem;
+  /* background-color: purple; */
+  margin: 0 auto;
+}
+
+.view-apps-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.4rem;
+  /* background-color: green; */
+  border-bottom: 0.3rem solid #7fffd7;
+  border-top: 0.3rem solid #7fffd7;
+  margin-bottom: 2.4rem;
+}
+
+.view-apps-div-col {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0.3rem;
+  /* background-color: red; */
+}
+
+.view-apps-div-col-row {
+  display: inline-flex;
+  gap: 2rem;
+  /* background-color: #7fffd7; */
+  align-items: center;
+  font-size: 1.4rem;
+  margin: 0 2.4rem;
+  padding: 1.2rem 1rem;
+}
+
+.view-apps-div-col-row > :first-child {
+  font-weight: 500;
+}
+
+/**************************/
+/* JOB LISTING SECTION */
+/**************************/
+.open-roles-div {
+  max-width: 120rem;
+  display: grid;
+  gap: 2.4rem;
+  margin: 3.2rem auto;
+  padding: 3.2rem auto;
+  text-align: center;
+  background-color: rgb(245, 245, 247);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+  align-items: center;
+}
+
+.job-listing-element {
+  /* background-color: #7fffd7; */
+  background-color: rgb(235, 235, 237);
+  max-width: 100%;
+  margin-bottom: 2.4rem;
+  padding: 2.4rem 2.4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+  text-decoration: none;
+}
+
+.job-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.02;
+  color: #333;
+  letter-spacing: -0.5px;
+  text-align: left;
+  /* margin-bottom: 3.2rem; */
+}
+
+.about-job {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.02;
+  color: #333;
+  letter-spacing: -0.5px;
+  text-align: right;
+  /* margin-bottom: 3.2rem; */
+}
+
+/**************************/
+/* JOB DESCRIPTION SECTION */
+/**************************/
+.jd-section {
+  max-width: 120rem;
+  margin: 3.2rem auto;
+  padding: 0 3.2rem;
+  /* background-color: lightblue; */
+}
+
+.jd-div {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 2.4rem;
+  /* background-color: lightgreen; */
+}
+
+.jd-div-jobtitle-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem;
+  border-bottom: 1px solid #2affbd;
+  /* padding: 2rem 1rem; */
+  /* background-color: lightcoral; */
+}
+
+.jd-div-jobtitle-row > .jd-row-right-content {
+  margin: auto 1.2rem;
+}
+
+.jd-div-jobtitle-row > .jd-row-right-content > p {
+  margin-bottom: 2rem;
+}
+
+.jd-div-jobtitle-row > .jd-row-left-content > h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #2affbd;
+}
+
+.jd-div-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem;
+  border-bottom: 1px solid #2affbd;
+
+  /* vertical-align: middle; */
+  /* background-color: lightpink; */
+}
+
+.jd-row-left-content {
+  text-align: center;
+  /* background-color: #2affbd; */
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: auto 1.2rem;
+}
+
+.jd-row-right-content {
+  text-align: left;
+  /* background-color: #94d82d; */
+  font-size: 1.8rem;
+  line-height: 1.02;
+  margin: auto 1.2rem;
+}
+
+.jd-row-right-content > ul > li {
+  margin-bottom: 2rem;
+}
+
+.feedback-section {
+  height: 20rem;
+  align-items: center;
+  padding-top: 5.2rem;
+}
+
+.feedback-content {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+/**************************/
 /* FEATURED IN SECTION */
 /**************************/
 
@@ -256,10 +429,10 @@
 }
 
 .step-number {
-  font-size: 8.6rem;
+  font-size: 7.6rem;
   font-weight: 500;
   /* color: #ddd; */
-  color: #7fffd7;
+  color: #2affbd;
   margin-bottom: 1.2rem;
   /* text-align: center; */
 }
@@ -619,7 +792,7 @@
 .cta-img-box {
   background-image: linear-gradient(
       to right bottom,
-      rgba(127, 255, 215, 0.35),
+      rgba(27, 255, 215, 0.35),
       rgba(42, 255, 189, 0.35)
     ),
     url("../qimg/candlesticks-chart.jpg");
@@ -655,7 +828,7 @@
 }
 
 .cta-form input::placeholder {
-  color: #aaa;
+  /* color: #aaa; */
 }
 
 .cta *:focus {

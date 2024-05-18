@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+}
+#lines-root {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #090709;
+  --width: max(0.25vw, 4px);
+  overflow: hidden;
+}
+.lineWrapper {
+  position: absolute;
+  width: var(--width);
+  height: var(--root_height);
+  top: 50%;
+  transform: translateY(-50%) rotate(35deg);
+}
+.line {
+  width: 100%;
+  height: 100%;
+  animation: scale ease-in-out infinite;
+}
+.line-orange {
+  background: linear-gradient(
+    230deg,
+    rgba(9, 7, 9, 1) 0,
+    rgba(255, 92, 0, 0.1) 10%,
+    rgba(255, 92, 0, 1) 100%
+  );
+  animation-direction: alternate;
+  animation-duration: 5s;
+}
+.line-blue {
+  background: linear-gradient(
+    230deg,
+    rgba(9, 7, 9, 1) 0,
+    rgba(0, 209, 255, 0.1) 10%,
+    rgba(0, 209, 255, 1) 100%
+  );
+  animation-direction: alternate-reverse;
+  animation-duration: 6.5s;
+}
+.lineCorner {
+  position: absolute;
+  left: 0;
+  margin-top: -0.5px;
+  width: var(--width);
+  height: var(--width);
+  animation: move ease-in-out infinite;
+}
+
+.line.line-orange ~ .lineCorner {
+  background: linear-gradient(
+    145deg,
+    rgba(255, 92, 0, 1) -10%,
+    rgba(255, 92, 0, 1) 50%,
+    rgba(255, 92, 0, 0) 50%,
+    rgba(255, 92, 0, 0) 100%
+  );
+  animation-direction: alternate;
+  animation-duration: 5s;
+}
+.line.line-blue ~ .lineCorner {
+  background: linear-gradient(
+    145deg,
+    rgba(0, 209, 255, 1) -10%,
+    rgba(0, 209, 255, 1) 50%,
+    rgba(0, 209, 255, 0) 50%,
+    rgba(0, 209, 255, 0) 100%
+  );
+  animation-direction: alternate-reverse;
+  animation-duration: 6.5s;
+}
+@keyframes scale {
+  0% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(0.5);
+  }
+}
+@keyframes move {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(calc(var(--root_height) / 4 * -1));
+  }
+}
