@@ -42,7 +42,7 @@
   }
 
   .header {
-    padding: 0 3.2rem;
+    padding: 1rem 3.2rem;
   }
 
   .main-nav-list {
@@ -71,7 +71,7 @@
   .hero {
     grid-template-columns: 1fr;
     /* padding: 0 8rem; */
-    gap: 3.2em;
+    gap: 0em;
   }
 
   /************* Animation Adjustments ***********/
@@ -152,7 +152,7 @@
   }
 
   .main-nav {
-    background-color: rgba(255, 92, 0, 0.5);
+    background-color: rgba(255, 92, 0, 0.4);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(10px);
     position: absolute;
@@ -161,6 +161,9 @@
     width: 50%;
     height: 57vh;
     transform: translateX(100%);
+
+    border: 2px solid var(--accent-main-tint-2);
+    border-bottom-left-radius: 10px;
 
     display: flex;
     align-items: center;
@@ -224,7 +227,8 @@
   }
 
   .hero-text-box {
-    padding: 3.2rem 4.2rem;
+    padding: 1.6rem 4.2rem;
+    padding-top: 0;
   }
 
   .section-featured {

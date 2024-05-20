@@ -4,6 +4,7 @@
 
 * {
   --accent-main: rgba(42, 255, 189, 1);
+  --accent-main-tint-2: rgba(42, 255, 189, 0.6);
   --accent-alt: rgba(255, 92, 0, 1);
   --accent-alt-tint-1: rgba(255, 92, 0, 0.8);
   --env-accent: #090709;
