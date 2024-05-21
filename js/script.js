@@ -1,15 +1,60 @@
-console.log("Hello world!");
+/** JQuery href="#open-roles"code */
 
-const myName = "Jonas Schmedtmann";
-const h1 = document.querySelector(".heading-primary");
-console.log(myName);
-console.log(h1);
+$(document).ready(function () {
+  // $("p").hide();
 
-// h1.addEventListener("click", function () {
-//   h1.textContent = myName;
-//   h1.style.backgroundColor = "red";
-//   h1.style.padding = "5rem";
-// });
+  $(".nav-src-1").click(function () {
+    $("html").animate(
+      {
+        scrollTop: $(".nav-dst-1").offset().top - ($(".header").height() + 15),
+      },
+      "slow"
+    );
+
+    // div.animate({ height: "300px", opacity: "0.4" }, "slow");
+    // $("p").hide();
+    // $("p").scrollTop(500);
+    // alert($("#jobs").offset().top);
+    // $("html").scrollTop(1000);
+    // alert($("html").scrollTop());
+  });
+
+  $(".nav-src-2").click(function () {
+    $("html").animate(
+      {
+        scrollTop: $(".nav-dst-2").offset().top - ($(".header").height() + 15),
+      },
+      "slow"
+    );
+  });
+
+  $(".nav-src-3").click(function () {
+    $("html").animate(
+      {
+        scrollTop: $(".nav-dst-3").offset().top - ($(".header").height() + 15),
+      },
+      "slow"
+    );
+  });
+
+  $(".nav-src-4").click(function () {
+    $("html").animate(
+      {
+        scrollTop: $(".nav-dst-4").offset().top - ($(".header").height() + 15),
+      },
+      "slow"
+    );
+  });
+
+  $(".nav-src-5").click(function () {
+    $("html").animate(
+      {
+        scrollTop: $(".nav-dst-5").offset().top - ($(".header").height() + 15),
+      },
+      "slow"
+    );
+  });
+});
 
 ///////////////////////////////////////////////////////////
 // Set current year

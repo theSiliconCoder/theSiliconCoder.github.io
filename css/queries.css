@@ -248,6 +248,17 @@
 
   .view-apps-div {
     grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .jd-div-jobtitle-row,
+  .jd-div-row {
+    grid-template-columns: 1fr;
+  }
+
+  .about-job,
+  .job-title {
+    font-size: 2rem;
   }
 
   .diets {

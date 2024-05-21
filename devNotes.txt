@@ -1,3 +1,11 @@
+Home
+// Logo: Orange
+// Who we are: make like side by side, heading darker green
+// approach/culture : orange/dark green
+// team, signup form: needs upgrade
+
+
+
 
 // presentation
 

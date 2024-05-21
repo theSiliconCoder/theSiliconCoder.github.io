@@ -1,13 +1,13 @@
 /**************************/
-/* HEADER */
+/* HEADER rgba(42, 255, 189, 1); */
 /**************************/
 
 * {
-  --accent-main: rgba(42, 255, 189, 1);
+  --accent-main: #039668;
   --accent-main-tint-2: rgba(42, 255, 189, 0.6);
   --accent-alt: rgba(255, 92, 0, 1);
   --accent-alt-tint-1: rgba(255, 92, 0, 0.8);
-  --env-accent: #090709;
+  --env-accent: rgba(9, 7, 9, 0.8);
   --txt-accent: rgb(245, 245, 247);
 }
 
@@ -253,6 +253,7 @@
   padding: 3.2rem auto;
   text-align: center;
   background-color: rgb(245, 245, 247);
+  /* background-color: var(--accent-main); */
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
   align-items: center;
@@ -260,32 +261,34 @@
 
 .job-listing-element {
   /* background-color: #7fffd7; */
-  background-color: rgb(235, 235, 237);
+  /* background-color: rgb(235, 235, 237); */
+  background-color: var(--env-accent);
   max-width: 100%;
   margin-bottom: 2.4rem;
   padding: 2.4rem 2.4rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 9.6rem;
+  gap: 4.8rem;
   align-items: center;
   text-decoration: none;
+  color: var(--accent-alt);
 }
 
 .job-title {
   font-size: 2.4rem;
   font-weight: 700;
   line-height: 1.02;
-  color: #333;
+  /* color: var(--accent-alt); */
   letter-spacing: -0.5px;
   text-align: left;
   /* margin-bottom: 3.2rem; */
 }
 
 .about-job {
-  font-size: 1.8rem;
-  font-weight: 500;
+  font-size: 2.4rem;
+  font-weight: 600;
   line-height: 1.02;
-  color: #333;
+  /* color: var(--accent-main); */
   letter-spacing: -0.5px;
   text-align: right;
   /* margin-bottom: 3.2rem; */
@@ -312,7 +315,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3.2rem;
-  border-bottom: 1px solid #2affbd;
+  border-bottom: 1px solid var(--accent-main);
   /* padding: 2rem 1rem; */
   /* background-color: lightcoral; */
 }
@@ -326,16 +329,16 @@
 }
 
 .jd-div-jobtitle-row > .jd-row-left-content > h1 {
-  font-size: 3.2rem;
+  font-size: 3.6rem;
   font-weight: 700;
-  color: #2affbd;
+  color: var(--accent-main);
 }
 
 .jd-div-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3.2rem;
-  border-bottom: 1px solid #2affbd;
+  border-bottom: 1px solid var(--accent-main);
 
   /* vertical-align: middle; */
   /* background-color: lightpink; */
@@ -471,9 +474,9 @@
 
 .step-number {
   font-size: 7.6rem;
-  font-weight: 500;
+  font-weight: 700;
   /* color: #ddd; */
-  color: #2affbd;
+  color: var(--accent-alt);
   margin-bottom: 1.2rem;
   /* text-align: center; */
 }

@@ -1,9 +1,10 @@
 * {
   /* background-color: black; #2affbd;*/
-  --accent-main: rgba(42, 255, 189, 1);
+  /* --accent-main: rgba(42, 255, 189, 1); */
+  /* --accent-main: #039668;
   --accent-alt: rgba(255, 92, 0, 1);
   --env-accent: #090709;
-  --txt-accent: rgb(245, 245, 247);
+  --txt-accent: rgb(245, 245, 247); */
   /* box-sizing: border-box; */
   margin: 0;
 }
