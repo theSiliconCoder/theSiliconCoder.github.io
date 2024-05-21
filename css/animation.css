@@ -123,6 +123,12 @@
 
 /*************** Queries ***********************************/
 
+@media (max-width: 59em) {
+  .comet-btn {
+    left: 0;
+  }
+}
+
 @media (max-width: 44rem) {
   .line-container {
     /* left: 10%; */
